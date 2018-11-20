@@ -1,3 +1,9 @@
 <?php
-$con=mysqli_connect('localhost','root','','fifo');
- ?>
+$conexion = new mysqli("localhost","root","tlahuitoltepec","fif");
+
+if($conexion){
+   // echo "conectado";
+}else{
+    //echo "no conectado";
+}
+?>
